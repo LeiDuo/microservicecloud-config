@@ -33,4 +33,9 @@ eureka:
   instance:
     instance-id: microservicecloud-dept8003
     prefer-ip-address: true
+info:
+  app.name: leiduo-microservicecloud
+  company.name: leiduo-study
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
